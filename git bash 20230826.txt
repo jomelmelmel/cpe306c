@@ -1,0 +1,266 @@
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/SMARTLAB PC 23/Documents/jomelmelmel/New folder/webdev/.git/
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git remote -v
+origin  https://github.com/jomelmelmel/webdev.git (fetch)
+origin  https://github.com/jomelmelmel/webdev.git (push)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add "howtopush.html"
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git commit -m "++ howtopush.html"
+[main 9e21a46] ++ howtopush.html
+ 1 file changed, 69 insertions(+)
+ create mode 100644 howtopush.html
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add "howtopush.html"
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add howtopush.html
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git commit -m "++ howtopush.html"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add .
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add .
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   github_repo.html
+        modified:   howtopush.html
+        new file:   swswsqsw.html
+
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git restore --staged swswsqsw.html
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git restore --staged github_repo.html
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   howtopush.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git commit -m "++ howtopush.html"
+[main cbc292c] ++ howtopush.html
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git log
+commit cbc292c9414132f895e4bcc117abb9c13a671fae (HEAD -> main)
+Author: jomelmelmel <jomel.argoncillo@hcdc.edu.ph>
+Date:   Sat Aug 26 12:20:17 2023 +0800
+
+    ++ howtopush.html
+
+commit 9e21a4650894c6e046a70967999472a8eef9087b
+Author: jomelmelmel <jomel.argoncillo@hcdc.edu.ph>
+Date:   Sat Aug 26 12:16:10 2023 +0800
+
+    ++ howtopush.html
+
+commit 88924ebaf5d3de3f86d004c787ecf50c1dcd2dfb (origin/main, origin/HEAD)
+Author: jomel argoncillo <123954850+jomelmelmel@users.noreply.github.com>
+Date:   Sat Aug 26 10:34:06 2023 +0800
+
+    ++ README.md
+
+commit 3f532887f89088d8c6c9985f9037a538047654ee
+Author: jomel argoncillo <123954850+jomelmelmel@users.noreply.github.com>
+Date:   Sat Aug 26 10:33:49 2023 +0800
+
+    ++ README.md
+:
+commit cbc292c9414132f895e4bcc117abb9c13a671fae (HEAD -> main)
+Author: jomelmelmel <jomel.argoncillo@hcdc.edu.ph>
+Date:   Sat Aug 26 12:20:17 2023 +0800
+
+    ++ howtopush.html
+
+commit 9e21a4650894c6e046a70967999472a8eef9087b
+Author: jomelmelmel <jomel.argoncillo@hcdc.edu.ph>
+Date:   Sat Aug 26 12:16:10 2023 +0800
+
+    ++ howtopush.html
+
+commit 88924ebaf5d3de3f86d004c787ecf50c1dcd2dfb (origin/main, origin/HEAD)
+Author: jomel argoncillo <123954850+jomelmelmel@users.noreply.github.com>
+Date:   Sat Aug 26 10:34:06 2023 +0800
+
+    ++ README.md
+
+commit 3f532887f89088d8c6c9985f9037a538047654ee
+Author: jomel argoncillo <123954850+jomelmelmel@users.noreply.github.com>
+Date:   Sat Aug 26 10:33:49 2023 +0800
+
+    ++ README.md
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git remote add origin https://github.com/jomelmelmel/webdev.git
+error: remote origin already exists.
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_repo.html
+        swswsqsw.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git reset
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git remote -v
+origin  https://github.com/jomelmelmel/webdev.git (fetch)
+origin  https://github.com/jomelmelmel/webdev.git (push)
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git pull --rebase
+Current branch main is up to date.
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/SMARTLAB PC 23/Documents/jomelmelmel/New folder/webdev/.git/
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git add -A
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   github_repo.html
+        new file:   swswsqsw.html
+
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git commit -m "Activity2"
+[main 5d67d50] Activity2
+ 2 files changed, 71 insertions(+)
+ create mode 100644 github_repo.html
+ create mode 100644 swswsqsw.html
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git branch -M main
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ git push origin main --force
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 2.60 KiB | 1.30 MiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/jomelmelmel/webdev.git
+   88924eb..5d67d50  main -> main
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$ ^C
+
+SMARTLAB PC 23@Smart_Lab_PC23 MINGW64 ~/Documents/jomelmelmel/New folder/webdev (main)
+$
