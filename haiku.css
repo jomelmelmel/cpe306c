@@ -9,7 +9,8 @@ pre {
     color: #c7cf81;
     text-align: center;
 }
-h1 {font-size: 50pt; margin-top:120px;}
+h1 {font-size: 50pt;}
+h3 {font-style: oblique;}
 h1, h3 {
     text-align: center;
     color: #bbe2ee;
@@ -53,7 +54,7 @@ em {
 .sheesh {
     /* border dotted */
     border:#fafafa 5px dotted;
-    /* background-image: linear-gradient(45deg, #566766, #789325);
+    /* background-iage: linear-gradient(45deg, #566766, #789325);
     background-size:cover;
     background-color: #566766; */
     height: 50px;
@@ -67,4 +68,26 @@ em {
 }
 .sheesh:hover {
     opacity: .8;
+}
+.ahhhhh{
+    border:#fafafa 2px solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.yeahbwoi {
+    background-image: url(https://media.tenor.com/n8DB4bmpduIAAAAM/yeah-bwoi-grin.gif);
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    transform: rotate(-20deg);
+    position: absolute; 
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
