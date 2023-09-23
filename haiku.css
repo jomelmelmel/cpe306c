@@ -1,0 +1,50 @@
+/* hai(na)ku */
+body {
+    background-image: url("https://images.ctfassets.net/81iqaqpfd8fy/49HjKcAPz2moYYksOQSSWa/c8e2666e3d4a147da97cd8d18402cfe4/Tsunami_Wave.jpg?w=1200&h=1200&fm=jpg&fit=fill");
+    background-position: top;
+    background-size:cover;
+}
+pre {
+    font-style: italic;
+    color: #c7cf81;
+    text-align: center;
+}
+h1 {font-size: 50pt; margin-top:120px;}
+h1, h3 {
+    text-align: center;
+    color: #bbe2ee;
+    line-height: 10pt;
+}
+hr {
+    width: 45%;
+    margin: auto;
+}
+em {
+    font-style: italic;
+    font-size: 20pt;
+}
+.swswswsw {
+    /* border gradient -45deg 5px */
+    border-image: linear-gradient(-45deg, #167aec, #4d9f0c) 50;
+    border-width: 5px;
+    border-style: solid;
+    /* frame size */
+    height: 160px;
+    width: 200px;
+    padding: 20px;
+    /* bg image */
+    background-image: url("https://images3.alphacoders.com/654/654249.png");
+    background-size:cover;
+    background-color: #505040;
+    /* frame position */
+    position: absolute;  
+    top: 20px; 
+    left: 70px;
+    margin:auto;
+    margin-left:20px;
+    opacity: .5;
+}
+.swswswsw:hover {
+    /* border gradient -45deg 5px */
+    opacity: 1;
+}
