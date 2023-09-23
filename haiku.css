@@ -48,3 +48,21 @@ em {
     /* border gradient -45deg 5px */
     opacity: 1;
 }
+.sheesh {
+    /* border dotted */
+    border:#fafafa 5px dotted;
+    /* background-image: linear-gradient(45deg, #566766, #789325);
+    background-size:cover;
+    background-color: #566766; */
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    opacity: 0.4;
+    /* frame position */
+    position: absolute;  
+    top: 165px; 
+    left: 280px;
+}
+.sheesh:hover {
+    opacity: .8;
+}
