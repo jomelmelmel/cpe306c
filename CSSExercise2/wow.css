@@ -1,0 +1,11 @@
+/* jomelmelmel */
+/* 20230925 */
+body {background-color: cyan;}
+
+div.lista {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {text-align: center; font-style: italic; color: blue;}
+hr {border: 1px silver ridge;}
+h3 {text-align: center;}
+.gapFix {margin-top: 2em;line-height: 0%;}
