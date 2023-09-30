@@ -1,0 +1,13 @@
+/*jomelmelmel*/
+/*20230925*/
+body {margin: 0 50px 0 50px;}
+h1, h2 {font-variant-caps: normal; text-align: center; text-transform: uppercase; font-family: serif;}
+p { border: 3px red dashed; 
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    font-family: serif;}
+p.gray-background {background-color: lightgray;}
+
+.strike-through {text-decoration: line-through;}
+.bold {font-weight: bold;}
