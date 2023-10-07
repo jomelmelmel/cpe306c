@@ -5,3 +5,21 @@ sardinas=nambir.substring(6,9);
 dusidusi=nambir.substring(10,14);
 newnumber=ithandrid+tuldok+sardinas+tuldok+dusidusi;
 console.log(newnumber);
+
+___________
+let course = "Bachelor of Science in Computer Engineering";
+a1=course.indexOf('B');
+a2=course.indexOf('S');
+a3=course.indexOf('C');
+a4=course.indexOf('p');
+a5=course.indexOf('E');
+so 0,12,23,26,32 😂
+
+let course = "Bachelor of Science in Computer Engineering";
+acr1=course.substring(0,1);
+acr2=course.substring(12,13);
+acr3=course.substring(23,24);
+acr4=course.substring(26,27);
+acr5=course.substring(32,33);
+result=acr1+acr2+acr3+acr4+acr5;
+console.log(result);
