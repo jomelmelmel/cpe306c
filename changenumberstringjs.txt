@@ -1,0 +1,7 @@
+nambir="(800) 555-1212";
+tuldok='.';
+ithandrid=nambir.substring(1,4);
+sardinas=nambir.substring(6,9);
+dusidusi=nambir.substring(10,14);
+newnumber=ithandrid+tuldok+sardinas+tuldok+dusidusi;
+console.log(newnumber);
