@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--jomelmelmel-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Jomel Rañeses Argoncillo">
+    <meta name="description" content="A mini-form that takes the users' personal information and display it in this browser console">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>User Information Form</title>
+</head>
+
+<body>
+    <div id="userInfoForm">
+        <label class="headerText">USER INFORMATION FORM</label>
+
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="zipcode">ZIP Code</label>
+        <input type="text" id="zipcode" name="zipcode" required>
+
+        <label for="region">Region</label>
+        <select id="region" name="region" required>
+            <option value="" disabled selected>Select a Region</option>
+        </select>
+
+        <button onclick="submitForm()">Submit</button>
+    </div>
+    <div id="footer">
+        <br>
+        <label id="footerText"></label>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var now = new Date();
+        var datetime = now.toLocaleString();
+      
+        document.getElementById("footerText").innerHTML = datetime;
+      </script>
+</body>
+</html>
