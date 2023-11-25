@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--jomelmelmel-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jomel Rañeses Argoncillo">
+    <meta name="description" content="an interactive quiz with multiple choice questions">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Javascript Quiz</title>
+</head>
+<body onload="starttime()">
+    <div id="Holder">
+      <div id="Header"></div>
+      <div id="NavBar">
+        <nav>
+      </div>
+      <div id="Content">
+        <div id="PageHeading">
+          <h1><marquee direction="right" behavior="alternate">Quiz quiz quiz!!!</marquee></h1>
+        </div>
+  
+        <div id="ContentLeft">
+          <h2></h2>
+          <br>
+          <img id="online_start">
+          <br>
+          <h3>Answer the following questions in this quiz. You have 20 seconds to answer.</h3>
+        </div>
+        <div id="ContentRight">
+          <section class="loginform_cf">
+            <table>
+              <tr>
+                <td id="test_status" style="text-align:left"></td>
+                <td id="starttime" style="text-align:right"></td>
+              </tr>
+  
+  <tr>
+  <td></td>
+  <td id="endtime" style="text-align:right"></td>
+  </tr>
+              <tr>
+                <td id="test" colspan="2"></td>
+              </tr>
+  
+            </table>
+            <div id="showtime"></div>
+          </section>
+        </div>
+  
+      </div>
+  
+  
+      <script src="script.js"></script>
+    </div>
+
+</body>
