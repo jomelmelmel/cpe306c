@@ -1,0 +1,9 @@
+body {
+    background-color: blue;
+    color: white;
+    margin: 100px;
+}
+label,input {
+    text-align: center;
+    font-size: large;
+}

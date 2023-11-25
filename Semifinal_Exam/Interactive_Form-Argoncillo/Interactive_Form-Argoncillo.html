@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--jomelmelmel-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jomel Rañeses Argoncillo">
+    <meta name="description" content="an html form with fields for name, email, and a submit button">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Interactive Form</title>
+</head>
+
+<body>
+    <div id="theForm">
+        <label for="firstName">FIRST NAME</label>
+        <input id= "firstName" name="firstName" type="text" required>
+        <br>
+        <label for="lastName">LAST NAME</label>
+        <input id= "lastName" name="lastName" type="text" required>
+        <br>
+        <label for="emailAdd">E-MAIL ADDRESS</label>
+        <input id="emailAdd" name="emailAdd" type="email" required>
+        <input type="submit" name="validate" value="Validate" onclick="ValidateEmail(document.emailAdd.text1)">
+        <br>
+        <button onclick="submissionForm()">SUBMIT</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
