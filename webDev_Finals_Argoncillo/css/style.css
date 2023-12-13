@@ -150,6 +150,7 @@ h1 {
 section {
     animation: 1.0s ease-out 0s 1 slideInLeft;
     display: block;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 .section {
